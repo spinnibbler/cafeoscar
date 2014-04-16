@@ -23,13 +23,15 @@
 .navbar-inverse .navbar-nav > li > a {
     color: white;
 }
-.jumbotron{ background-image: url(images/cafeoscar_004.jpg);
+.jumbotron {
+    color: white;
+    background-image: url(images/cafeoscar_004.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 /*Footer CSS*/
+
 html,
 body {
     height: 100%;
