@@ -1,6 +1,5 @@
 .starter-template {
-    text-align: center;
-    padding-top: 250px;
+    padding-top: 20%;
 }
 .imagetop {
     background: url(images/coffeebeans.jpg) no-repeat center center fixed;
@@ -29,6 +28,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    height: 100%;
 }
 /*Footer CSS*/
 
@@ -64,4 +66,24 @@ body {
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* width and height can be anything, as long as they're equal */
+}
+#img1 {
+    background-image: url(images/cafeoscar_002.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img2 {
+    background-image: url(images/cafeoscar_005.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
